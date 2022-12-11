@@ -1,8 +1,10 @@
 #testimonial{
     margin-top: 20%;
+    height: 60vh;
 }
 .container.testimonial_container{
     width: 40%;
+    padding-bottom: 4rem;
 }
 .client_avatar{
     width: 4rem;
@@ -31,7 +33,9 @@
     width: 80%;
     margin: 0.8rem auto 0;
 }
-
+/* .swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--color-primary);
+} */
 
 
 /* for tablets*/
@@ -45,6 +49,9 @@
 .container.testimonial_container{
     width: var(--container-width-ms)
 
+}
+#testimonial{
+    margin-top: 415%;
 }
     .client_review{
         width: var(--container-width-ms);
